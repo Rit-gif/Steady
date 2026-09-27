@@ -1,79 +1,48 @@
+using System;
 using UnityEngine;
 
 public class Player_Script : MonoBehaviour
 {
-
-    // variable
-    // physics
-    private Rigidbody2D rb;
     private Animator anim;
-    
+    private Rigidbody2D rb;
+    private float xInput;
+    [SerializeField] private float move_speed = 5f;
+    [SerializeField] private float jumpPower = 5;
+    private bool isGrounded;
 
-    // movements, 8 directions
-    private Vector2 moveInput;
-    [SerializeField] private float movementSpeed = 3;
-
-    // [SerializeField] private float dashSpeed = 5;
-    //private float isMoving = 0;
-
-
-    
-    // collisions
-
-
-
-    private void Awake()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        // anim = GetComponentInChildren<Animator>();
+        anim = GetComponentInChildren<Animator>();
+    }
+    
+    void Update()
+    {
+        HandleInput();
+        HandleMovement();
+        HandleAnimation();
     }
 
-
-    private void Start()
+    private void HandleAnimation()
     {
-        
+        bool isMoving = rb.linearVelocity.x != 0;
+        anim.SetBool("isMoving", isMoving);
     }
 
-
-    private void Update()
+    private void HandleInput()
     {
-        player_Input();
-        player_Movement();
-        // playerAnimation();
+        xInput = Input.GetAxisRaw("Horizontal");
+        if (Input.GetKeyDown(KeyCode.Space)) jump();
     }
 
-
-    private void player_Input()
+    private void HandleMovement()
     {
-        // xInput = Input.GetAxisRaw("Horizontal");
-        // if (Input.GetKeyDown(KeyCode.Space)) dash();
-
+        rb.linearVelocity = new Vector2(xInput * move_speed, rb.linearVelocity.y);
     }
 
-    private void player_Movement()
+    private void jump()
     {
-        // rb.linearVelocity = new Vector2(xInput * movementSpeed, rb.linearVelocity.y);
-        
-        float Horizontal = Input.GetAxisRaw("Horizontal");
-        float Vertical = Input.GetAxisRaw("Vertical");
-
-        if(Horizontal == 0 && Vertical == 0)
-        {
-            rb.linearVelocity = new Vector2(0, 0);
-            return;
-        }
-
-        moveInput = new Vector2(Horizontal, Vertical);
-        rb.linearVelocity = moveInput * movementSpeed * Time.fixedDeltaTime;
-    }
-
-    private void dash()
-    {
-
-    }
-
-    private void Animate()
-    {
-
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+        //if (isGrounded) rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
     }
 }
