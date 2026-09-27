@@ -1,1 +1,2 @@
 this is a npc movement
+this is a enemy script
