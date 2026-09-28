@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 62375564}
   - component: {fileID: 62375566}
   - component: {fileID: 62375565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +437,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &70579748
 GameObject:
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 70579749}
   - component: {fileID: 70579750}
   - component: {fileID: 70579751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &70579751
 BoxCollider2D:
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 76522211}
   - component: {fileID: 76522212}
   - component: {fileID: 76522213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &76522213
 BoxCollider2D:
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 106869436}
   - component: {fileID: 106869437}
   - component: {fileID: 106869438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +805,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &106869438
 BoxCollider2D:
@@ -949,7 +949,7 @@ SpriteRenderer:
   m_Size: {x: 3.9899998, y: 6.762071}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!4 &155521203
 Transform:
@@ -960,8 +960,8 @@ Transform:
   m_GameObject: {fileID: 155521200}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.0097996015, w: 0.999952}
-  m_LocalPosition: {x: 10.89, y: 2.77, z: 10.337}
-  m_LocalScale: {x: 0.5637256, y: 0.5637256, z: 0.5637256}
+  m_LocalPosition: {x: 8.15, y: 1.26, z: 10.337}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 496693653}
@@ -1050,11 +1050,7 @@ MonoBehaviour:
   moveSpeed: 5
   chaseRange: 6
   patrolDistance: 3
-  player: {fileID: 0}
-  rb: {fileID: 0}
-  anim: {fileID: 0}
-  startPos: {x: 0, y: 0}
-  direction: 1
+  player: {fileID: 1528766992}
 --- !u!1 &184559323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1062,7 @@ GameObject:
   - component: {fileID: 184559324}
   - component: {fileID: 184559325}
   - component: {fileID: 184559326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1145,7 +1141,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &184559326
 BoxCollider2D:
@@ -1204,7 +1200,7 @@ GameObject:
   - component: {fileID: 190990408}
   - component: {fileID: 190990410}
   - component: {fileID: 190990409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Grass 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1233,7 +1229,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190990407}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1329,7 +1325,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 0.28125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &255424202
 GameObject:
@@ -1341,7 +1337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255424203}
   - component: {fileID: 255424204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Grass 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1420,7 +1416,7 @@ SpriteRenderer:
   m_Size: {x: 0.34375, y: 0.21875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &261017066
 GameObject:
@@ -1433,7 +1429,7 @@ GameObject:
   - component: {fileID: 261017067}
   - component: {fileID: 261017068}
   - component: {fileID: 261017069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1512,7 +1508,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &261017069
 BoxCollider2D:
@@ -1649,7 +1645,7 @@ SpriteRenderer:
   m_Size: {x: 2.4199998, y: 3.8711855}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &278268522
 GameObject:
@@ -1662,7 +1658,7 @@ GameObject:
   - component: {fileID: 278268523}
   - component: {fileID: 278268524}
   - component: {fileID: 278268525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1737,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &278268525
 BoxCollider2D:
@@ -1799,7 +1795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298488552}
   - component: {fileID: 298488553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Fire Bowl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1878,7 +1874,7 @@ SpriteRenderer:
   m_Size: {x: 1.21875, y: 0.96875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &397381828
 GameObject:
@@ -1891,7 +1887,7 @@ GameObject:
   - component: {fileID: 397381829}
   - component: {fileID: 397381830}
   - component: {fileID: 397381831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1970,7 +1966,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &397381831
 BoxCollider2D:
@@ -2029,7 +2025,7 @@ GameObject:
   - component: {fileID: 429997610}
   - component: {fileID: 429997612}
   - component: {fileID: 429997611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2154,7 +2150,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &432321286
 GameObject:
@@ -2165,7 +2161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432321287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2267,7 +2263,7 @@ GameObject:
   - component: {fileID: 435555519}
   - component: {fileID: 435555520}
   - component: {fileID: 435555521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2346,7 +2342,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &435555521
 BoxCollider2D:
@@ -2405,7 +2401,7 @@ GameObject:
   - component: {fileID: 494277754}
   - component: {fileID: 494277755}
   - component: {fileID: 494277756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2484,7 +2480,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &494277756
 BoxCollider2D:
@@ -2558,7 +2554,7 @@ Transform:
   m_GameObject: {fileID: 496693652}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.026367188, y: 4.354248, z: 0}
+  m_LocalPosition: {x: 0.026367188, y: 4.354248, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2621,7 +2617,7 @@ SpriteRenderer:
   m_Size: {x: 2.03, y: 2.550781}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &510952265
 GameObject:
@@ -2634,7 +2630,7 @@ GameObject:
   - component: {fileID: 510952266}
   - component: {fileID: 510952267}
   - component: {fileID: 510952268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2713,7 +2709,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &510952268
 BoxCollider2D:
@@ -2771,7 +2767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 515207888}
   - component: {fileID: 515207889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Grass 08 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2850,8 +2846,135 @@ SpriteRenderer:
   m_Size: {x: 0.90625, y: 0.28125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &587288020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587288021}
+  - component: {fileID: 587288024}
+  - component: {fileID: 587288023}
+  - component: {fileID: 587288022}
+  m_Layer: 0
+  m_Name: Animation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &587288021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587288020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1528766992}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &587288022
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587288020}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71645380f5b1322458994d6a27120b9e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &587288023
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587288020}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3318188226485093758, guid: 266b10f0231bd76409ea4e634b27a978, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.3125, y: 2.75}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!114 &587288024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587288020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82342bd37e12d8488058a8e0a837a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::player_animation_events
 --- !u!1 &608522264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,7 +2986,7 @@ GameObject:
   - component: {fileID: 608522265}
   - component: {fileID: 608522266}
   - component: {fileID: 608522267}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2942,7 +3065,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &608522267
 BoxCollider2D:
@@ -3001,7 +3124,7 @@ GameObject:
   - component: {fileID: 618445084}
   - component: {fileID: 618445086}
   - component: {fileID: 618445085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Flower 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3126,7 +3249,7 @@ SpriteRenderer:
   m_Size: {x: 0.15625, y: 0.15625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &640148047
 GameObject:
@@ -3139,7 +3262,7 @@ GameObject:
   - component: {fileID: 640148048}
   - component: {fileID: 640148049}
   - component: {fileID: 640148050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3218,7 +3341,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &640148050
 BoxCollider2D:
@@ -3277,7 +3400,7 @@ GameObject:
   - component: {fileID: 649373311}
   - component: {fileID: 649373312}
   - component: {fileID: 649373313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3356,7 +3479,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &649373313
 BoxCollider2D:
@@ -3557,7 +3680,7 @@ GameObject:
   - component: {fileID: 800096634}
   - component: {fileID: 800096635}
   - component: {fileID: 800096636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3636,7 +3759,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &800096636
 BoxCollider2D:
@@ -3695,7 +3818,7 @@ GameObject:
   - component: {fileID: 849691332}
   - component: {fileID: 849691333}
   - component: {fileID: 849691334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3774,7 +3897,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &849691334
 BoxCollider2D:
@@ -3833,7 +3956,7 @@ GameObject:
   - component: {fileID: 872076832}
   - component: {fileID: 872076833}
   - component: {fileID: 872076834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3912,7 +4035,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &872076834
 BoxCollider2D:
@@ -3960,6 +4083,159 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &912135914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912135918}
+  - component: {fileID: 912135917}
+  - component: {fileID: 912135916}
+  - component: {fileID: 912135915}
+  m_Layer: 0
+  m_Name: obwall_toRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &912135915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912135914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4598af629c0a643a030be2b833d752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  teleportPoint: {fileID: 1080500757}
+--- !u!61 &912135916
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912135914}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &912135917
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912135914}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &912135918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912135914}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.02, y: -2.48, z: 0}
+  m_LocalScale: {x: 1, y: 3.5944998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1080500757}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &999939590
 GameObject:
   m_ObjectHideFlags: 0
@@ -3972,7 +4248,7 @@ GameObject:
   - component: {fileID: 999939592}
   - component: {fileID: 999939594}
   - component: {fileID: 999939593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4051,7 +4327,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &999939593
 BoxCollider2D:
@@ -4155,7 +4431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010215840}
   - component: {fileID: 1010215841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Grass 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4234,7 +4510,7 @@ SpriteRenderer:
   m_Size: {x: 0.625, y: 0.4375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1030090167
 GameObject:
@@ -4246,7 +4522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030090168}
   - component: {fileID: 1030090169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Gravestone 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4325,7 +4601,7 @@ SpriteRenderer:
   m_Size: {x: 0.84375, y: 1.40625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1030623709
 GameObject:
@@ -4338,7 +4614,7 @@ GameObject:
   - component: {fileID: 1030623710}
   - component: {fileID: 1030623711}
   - component: {fileID: 1030623712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4417,7 +4693,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1030623712
 BoxCollider2D:
@@ -4476,7 +4752,7 @@ GameObject:
   - component: {fileID: 1065930683}
   - component: {fileID: 1065930684}
   - component: {fileID: 1065930685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4555,7 +4831,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1065930685
 BoxCollider2D:
@@ -4603,6 +4879,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1080500756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080500757}
+  m_Layer: 0
+  m_Name: tpPoint_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080500757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080500756}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.49, y: 0.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 912135918}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1091104865
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,7 +4921,7 @@ GameObject:
   - component: {fileID: 1091104866}
   - component: {fileID: 1091104867}
   - component: {fileID: 1091104868}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4693,7 +5000,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1091104868
 BoxCollider2D:
@@ -4752,7 +5059,7 @@ GameObject:
   - component: {fileID: 1115161458}
   - component: {fileID: 1115161459}
   - component: {fileID: 1115161460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4831,7 +5138,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1115161460
 BoxCollider2D:
@@ -4890,7 +5197,7 @@ GameObject:
   - component: {fileID: 1124635323}
   - component: {fileID: 1124635324}
   - component: {fileID: 1124635325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4969,7 +5276,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1124635325
 BoxCollider2D:
@@ -5028,7 +5335,7 @@ GameObject:
   - component: {fileID: 1130959035}
   - component: {fileID: 1130959036}
   - component: {fileID: 1130959037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5107,7 +5414,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1130959037
 BoxCollider2D:
@@ -5166,7 +5473,7 @@ GameObject:
   - component: {fileID: 1136177094}
   - component: {fileID: 1136177095}
   - component: {fileID: 1136177096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5245,7 +5552,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1136177096
 BoxCollider2D:
@@ -5304,7 +5611,7 @@ GameObject:
   - component: {fileID: 1167356550}
   - component: {fileID: 1167356551}
   - component: {fileID: 1167356552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5383,7 +5690,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1167356552
 BoxCollider2D:
@@ -5441,7 +5748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1177229507}
   - component: {fileID: 1177229508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Ladder 01 Side RB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5520,7 +5827,7 @@ SpriteRenderer:
   m_Size: {x: 0.59375, y: 1.03125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1183890207
 GameObject:
@@ -5533,7 +5840,7 @@ GameObject:
   - component: {fileID: 1183890208}
   - component: {fileID: 1183890209}
   - component: {fileID: 1183890210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5612,7 +5919,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1183890210
 BoxCollider2D:
@@ -5671,7 +5978,7 @@ GameObject:
   - component: {fileID: 1184887379}
   - component: {fileID: 1184887381}
   - component: {fileID: 1184887380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Crate Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5796,7 +6103,7 @@ SpriteRenderer:
   m_Size: {x: 1.09375, y: 1.09375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1195411781
 GameObject:
@@ -5809,7 +6116,7 @@ GameObject:
   - component: {fileID: 1195411782}
   - component: {fileID: 1195411783}
   - component: {fileID: 1195411784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5888,7 +6195,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1195411784
 BoxCollider2D:
@@ -5947,7 +6254,7 @@ GameObject:
   - component: {fileID: 1202138155}
   - component: {fileID: 1202138156}
   - component: {fileID: 1202138157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6026,7 +6333,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1202138157
 BoxCollider2D:
@@ -6085,7 +6392,7 @@ GameObject:
   - component: {fileID: 1215112709}
   - component: {fileID: 1215112710}
   - component: {fileID: 1215112711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6164,7 +6471,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1215112711
 BoxCollider2D:
@@ -6223,7 +6530,7 @@ GameObject:
   - component: {fileID: 1220854349}
   - component: {fileID: 1220854350}
   - component: {fileID: 1220854351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6302,7 +6609,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1220854351
 BoxCollider2D:
@@ -6361,7 +6668,7 @@ GameObject:
   - component: {fileID: 1284181034}
   - component: {fileID: 1284181036}
   - component: {fileID: 1284181035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6486,7 +6793,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1299030882
 GameObject:
@@ -6665,7 +6972,7 @@ GameObject:
   - component: {fileID: 1306153262}
   - component: {fileID: 1306153263}
   - component: {fileID: 1306153264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6744,7 +7051,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1306153264
 BoxCollider2D:
@@ -6803,7 +7110,7 @@ GameObject:
   - component: {fileID: 1307833332}
   - component: {fileID: 1307833333}
   - component: {fileID: 1307833334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6882,7 +7189,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1307833334
 BoxCollider2D:
@@ -6940,7 +7247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382106349}
   - component: {fileID: 1382106350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Ladder 01 Side RM 02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7019,7 +7326,7 @@ SpriteRenderer:
   m_Size: {x: 0.59375, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1432683933
 GameObject:
@@ -7032,7 +7339,7 @@ GameObject:
   - component: {fileID: 1432683934}
   - component: {fileID: 1432683935}
   - component: {fileID: 1432683936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7111,7 +7418,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1432683936
 BoxCollider2D:
@@ -7170,7 +7477,7 @@ GameObject:
   - component: {fileID: 1494306611}
   - component: {fileID: 1494306612}
   - component: {fileID: 1494306613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7249,7 +7556,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1494306613
 BoxCollider2D:
@@ -7297,6 +7604,222 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1527541247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527541248}
+  m_Layer: 0
+  m_Name: tpPoint_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1527541248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527541247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.6, y: 1.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2049640447}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1528766987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528766992}
+  - component: {fileID: 1528766991}
+  - component: {fileID: 1528766990}
+  - component: {fileID: 1528766989}
+  - component: {fileID: 1528766988}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!70 &1528766988
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528766987}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.27959213, y: -0.13867533}
+  m_Size: {x: 0.44571286, y: 1.0036256}
+  m_Direction: 0
+--- !u!50 &1528766989
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528766987}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 8ad99eabe826d9941bf86d4a6a2c0a73, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1528766990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528766987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449cddb048e15774cb32a6e55b2e96fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  attack_radius: 0.84
+  attack_point: {fileID: 1728993169}
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 0
+  move_speed: 5
+  jumpPower: 8
+  isFacingRight: 1
+  ground_check_distance: 1.4
+  isGrounded: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!212 &1528766991
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528766987}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -6154804384636944937, guid: e049a2a91df8e0940a03f829838c83a7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1528766992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528766987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 587288021}
+  - {fileID: 1728993169}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1536384555
 GameObject:
   m_ObjectHideFlags: 0
@@ -7308,7 +7831,7 @@ GameObject:
   - component: {fileID: 1536384556}
   - component: {fileID: 1536384557}
   - component: {fileID: 1536384558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7387,7 +7910,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1536384558
 BoxCollider2D:
@@ -7446,7 +7969,7 @@ GameObject:
   - component: {fileID: 1577818892}
   - component: {fileID: 1577818893}
   - component: {fileID: 1577818894}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7525,7 +8048,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1577818894
 BoxCollider2D:
@@ -7662,7 +8185,7 @@ SpriteRenderer:
   m_Size: {x: 7.6699996, y: 10.163112}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
 --- !u!1 &1614980007
 GameObject:
@@ -7675,7 +8198,7 @@ GameObject:
   - component: {fileID: 1614980008}
   - component: {fileID: 1614980009}
   - component: {fileID: 1614980010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7754,7 +8277,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1614980010
 BoxCollider2D:
@@ -7813,7 +8336,7 @@ GameObject:
   - component: {fileID: 1615316455}
   - component: {fileID: 1615316456}
   - component: {fileID: 1615316457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7892,7 +8415,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1615316457
 BoxCollider2D:
@@ -7951,7 +8474,7 @@ GameObject:
   - component: {fileID: 1631897593}
   - component: {fileID: 1631897594}
   - component: {fileID: 1631897595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8030,7 +8553,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1631897595
 BoxCollider2D:
@@ -8089,7 +8612,7 @@ GameObject:
   - component: {fileID: 1654490127}
   - component: {fileID: 1654490128}
   - component: {fileID: 1654490129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8168,7 +8691,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1654490129
 BoxCollider2D:
@@ -8226,7 +8749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690553551}
   - component: {fileID: 1690553552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Archert Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8305,7 +8828,7 @@ SpriteRenderer:
   m_Size: {x: 1.1875, y: 1.375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1702695221
 GameObject:
@@ -8318,7 +8841,7 @@ GameObject:
   - component: {fileID: 1702695222}
   - component: {fileID: 1702695223}
   - component: {fileID: 1702695224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8397,7 +8920,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1702695224
 BoxCollider2D:
@@ -8456,7 +8979,7 @@ GameObject:
   - component: {fileID: 1724557991}
   - component: {fileID: 1724557992}
   - component: {fileID: 1724557993}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8535,7 +9058,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1724557993
 BoxCollider2D:
@@ -8583,6 +9106,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1728993168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1728993169}
+  m_Layer: 0
+  m_Name: attack_point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1728993169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728993168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.39, y: -0.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1528766992}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736739474
 GameObject:
   m_ObjectHideFlags: 0
@@ -8594,7 +9148,7 @@ GameObject:
   - component: {fileID: 1736739475}
   - component: {fileID: 1736739476}
   - component: {fileID: 1736739477}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8673,7 +9227,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1736739477
 BoxCollider2D:
@@ -8732,7 +9286,7 @@ GameObject:
   - component: {fileID: 1805710741}
   - component: {fileID: 1805710742}
   - component: {fileID: 1805710743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8811,7 +9365,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1805710743
 BoxCollider2D:
@@ -8870,7 +9424,7 @@ GameObject:
   - component: {fileID: 1850652770}
   - component: {fileID: 1850652771}
   - component: {fileID: 1850652772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8949,7 +9503,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1850652772
 BoxCollider2D:
@@ -9007,7 +9561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870240574}
   - component: {fileID: 1870240575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Bounding Platform 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9086,7 +9640,7 @@ SpriteRenderer:
   m_Size: {x: 1.9375, y: 1.21875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1876902837
 GameObject:
@@ -9098,7 +9652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876902838}
   - component: {fileID: 1876902839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Ladder 01 Side RM 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9177,7 +9731,7 @@ SpriteRenderer:
   m_Size: {x: 0.59375, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1905467972
 GameObject:
@@ -9190,7 +9744,7 @@ GameObject:
   - component: {fileID: 1905467973}
   - component: {fileID: 1905467974}
   - component: {fileID: 1905467975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9269,7 +9823,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1905467975
 BoxCollider2D:
@@ -9328,7 +9882,7 @@ GameObject:
   - component: {fileID: 1953268469}
   - component: {fileID: 1953268470}
   - component: {fileID: 1953268471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9407,7 +9961,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1953268471
 BoxCollider2D:
@@ -9466,7 +10020,7 @@ GameObject:
   - component: {fileID: 1964398146}
   - component: {fileID: 1964398147}
   - component: {fileID: 1964398148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9545,7 +10099,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1964398148
 BoxCollider2D:
@@ -9682,7 +10236,7 @@ SpriteRenderer:
   m_Size: {x: 2.49, y: 3.8911917}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &2014501464
 GameObject:
@@ -9696,7 +10250,7 @@ GameObject:
   - component: {fileID: 2014501466}
   - component: {fileID: 2014501468}
   - component: {fileID: 2014501467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9775,7 +10329,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &2014501467
 BoxCollider2D:
@@ -9879,7 +10433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2033079288}
   - component: {fileID: 2033079289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Gravestone 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9958,8 +10512,161 @@ SpriteRenderer:
   m_Size: {x: 1.09375, y: 1.46875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2049640443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2049640447}
+  - component: {fileID: 2049640446}
+  - component: {fileID: 2049640445}
+  - component: {fileID: 2049640444}
+  m_Layer: 0
+  m_Name: obwall_toLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2049640444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049640443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b79f2e99d6e2e340930554d407096bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::teleport
+  teleportPoint: {fileID: 1527541248}
+--- !u!61 &2049640445
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049640443}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &2049640446
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049640443}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &2049640447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049640443}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.03, y: -3.1, z: 0}
+  m_LocalScale: {x: 1, y: 2.90175, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1527541248}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058815458
 GameObject:
   m_ObjectHideFlags: 0
@@ -9971,7 +10678,7 @@ GameObject:
   - component: {fileID: 2058815459}
   - component: {fileID: 2058815460}
   - component: {fileID: 2058815461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10050,7 +10757,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &2058815461
 BoxCollider2D:
@@ -10108,7 +10815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2112084324}
   - component: {fileID: 2112084325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Grass 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10187,7 +10894,7 @@ SpriteRenderer:
   m_Size: {x: 0.90625, y: 0.28125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &2132020770
 GameObject:
@@ -10278,7 +10985,7 @@ SpriteRenderer:
   m_Size: {x: 3.03, y: 3.8911917}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &2132768785
 GameObject:
@@ -10290,7 +10997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2132768786}
   - component: {fileID: 2132768787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Ladder 01 Side RB (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10369,14 +11076,17 @@ SpriteRenderer:
   m_Size: {x: 0.59375, y: 1.03125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 32503096}
+  - {fileID: 1528766992}
   - {fileID: 27490010}
   - {fileID: 432321287}
   - {fileID: 722858327}
   - {fileID: 155521203}
+  - {fileID: 912135918}
+  - {fileID: 2049640447}
