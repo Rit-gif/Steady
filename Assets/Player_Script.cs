@@ -14,11 +14,22 @@ public class Player_Script : MonoBehaviour
     [SerializeField] private Transform attack_point;
     [SerializeField] private LayerMask whatIsEnemy;
 
+    [Header("Attack Sound")]
+    [SerializeField] private AudioSource attackAudioSource;
+    [SerializeField] private AudioClip attackSound;
 
     [Header("Movement details")]
     [SerializeField] private float move_speed = 5f;
     [SerializeField] private float jumpPower = 5;
     [SerializeField] private bool isFacingRight = true;
+
+    [Header("Jump Sound")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip jumpSound;
+
+    [Header("Run Sound")]
+    [SerializeField] private AudioSource runAudioSource;
+    [SerializeField] private AudioClip runSound;
 
 
     [Header("Collision details")]
@@ -78,13 +89,44 @@ public class Player_Script : MonoBehaviour
         if (isGrounded)
         {
             anim.SetTrigger("attack");
+
+            if (attackAudioSource != null && attackSound != null)
+            {
+                attackAudioSource.PlayOneShot(attackSound);
+            }
         }
     }
 
     private void player_Movement()
     {
-        if(canMove) rb.linearVelocity = new Vector2(xInput * move_speed, rb.linearVelocity.y);
-        else rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        if (canMove)
+        {
+            rb.linearVelocity = new Vector2(xInput * move_speed, rb.linearVelocity.y);
+
+            if (isGrounded && xInput != 0)
+            {
+                if (!runAudioSource.isPlaying)
+                {
+                    runAudioSource.Play();
+                }
+            }
+            else
+            {
+                if (runAudioSource.isPlaying)
+                {
+                    runAudioSource.Stop();
+                }
+            }
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+
+            if (runAudioSource.isPlaying)
+            {
+                runAudioSource.Stop();
+            }
+        }
     }
 
     private void player_Collision()
@@ -106,7 +148,15 @@ public class Player_Script : MonoBehaviour
 
     private void player_jump_attempt()
     {
-        if (isGrounded && canJump) rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+        if (isGrounded && canJump)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+
+            if (audioSource != null && jumpSound != null)
+            {
+                audioSource.PlayOneShot(jumpSound);
+            }
+        }
     }
 
     private void OnDrawGizmos()
