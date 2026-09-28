@@ -21,7 +21,7 @@ public class enemy_script : MonoBehaviour
         
     }
 
-    public void enemy_attack()
+    public virtual void enemy_attack()
     {
         Debug.Log(enemyName + " attack");
     }

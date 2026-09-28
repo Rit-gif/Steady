@@ -1,13 +1,25 @@
-using System.Collections.Generic;
+using System.Collections;
+using System;
 using UnityEngine;
 
 public class Player_Script : MonoBehaviour
 {
     private Animator anim;
+    protected Collider2D col;
+    protected SpriteRenderer sr;
     private Rigidbody2D rb;
     private float xInput;
     private bool canMove = true;
     private bool canJump = true;
+
+
+    [Header("HP")]
+    [SerializeField] private int maxHealth;
+    [SerializeField] private int currentHealth;
+    [SerializeField] private Material damageMaterial;
+    [SerializeField] private float damage_feed = 1f;
+    private Coroutine damage_feedCoroutine;
+
 
     [Header("Attack details")]
     [SerializeField] private float attack_radius;
@@ -17,7 +29,7 @@ public class Player_Script : MonoBehaviour
 
     [Header("Movement details")]
     [SerializeField] private float move_speed = 5f;
-    [SerializeField] private float jumpPower = 5;
+    [SerializeField] private float jumpPower = 7;
     [SerializeField] private bool isFacingRight = true;
 
 
@@ -37,6 +49,10 @@ public class Player_Script : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
+        col = GetComponent<Collider2D>();
+        sr = GetComponentInChildren<SpriteRenderer>();
+
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -78,6 +94,41 @@ public class Player_Script : MonoBehaviour
         {
             anim.SetTrigger("attack");
         }
+    }
+
+    private void player_take_dmg()
+    {
+        currentHealth = currentHealth - 1;
+        
+        dmg_feed_play();
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void dmg_feed_play()
+    {
+        if (damage_feedCoroutine != null) StopCoroutine(damage_feedCoroutine);
+        StartCoroutine(Damage_feedCo());
+    }
+
+    private IEnumerator Damage_feedCo()
+    {
+        Material origanalMat = sr.material;
+        sr.material = damageMaterial;
+        yield return new WaitForSeconds(damage_feed);
+        sr.material = origanalMat;
+    }
+
+    protected virtual void Die()
+    {
+        anim.enabled = false;
+        col.enabled = false;
+
+        rb.gravityScale = 12;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 15);
     }
 
     private void player_Movement()
