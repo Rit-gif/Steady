@@ -7,16 +7,22 @@ public class enemy_script : MonoBehaviour
     
     private void Update()
     {
-        
+        enemy_move();
+        if (Input.GetKeyDown(KeyCode.F)) enemy_attack();
     }
 
     public void enemy_move()
     {
-        Debug.Log(enemyName + " move at speed " + move_speed);
+        
+    }
+
+    public void take_damage()
+    {
+        
     }
 
     public void enemy_attack()
     {
-
+        Debug.Log(enemyName + " attack");
     }
 }
