@@ -1,5 +1,4 @@
-using System;
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Script : MonoBehaviour
@@ -7,6 +6,13 @@ public class Player_Script : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
     private float xInput;
+    private bool canMove = true;
+    private bool canJump = true;
+
+    [Header("Attack details")]
+    [SerializeField] private float attack_radius;
+    [SerializeField] private Transform attack_point;
+    [SerializeField] private LayerMask whatIsEnemy;
 
 
     [Header("Movement details")]
@@ -21,47 +27,74 @@ public class Player_Script : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
 
 
-    void Awake()
+    public void enable_jump_movement(bool enable)
+    {
+        canMove = enable;
+        canJump = enable;
+    }
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
     }
-    
-    void Update()
+
+    private void Update()
     {
-        HandleInput();
-        HandleMovement();
-        HandleAnimation();
-        player_flip();
-        HandleCollision();
+        player_Input();
+        player_Movement();
+        player_Animation();
+        player_Flip();
+        player_Collision();
     }
 
-    private void HandleAnimation()
+    public void damage_enemies()
     {
-        bool isMoving = rb.linearVelocity.x != 0;
-        anim.SetBool("isMoving", isMoving);
+        Collider2D[] enemy_colliders = Physics2D.OverlapCircleAll(attack_point.position, attack_radius, whatIsEnemy);
+        foreach (Collider2D enemy in enemy_colliders)
+        {
+            enemy.GetComponent<enemy_script>().take_damage();
+        }
+
     }
 
-    private void HandleInput()
+    private void player_Animation()
+    {
+        anim.SetFloat("x_velocity", rb.linearVelocity.x);
+        anim.SetFloat("y_velocity", rb.linearVelocity.y);
+        anim.SetBool("isGrounded", isGrounded);
+    }
+
+    private void player_Input()
     {
         xInput = Input.GetAxisRaw("Horizontal");
-        if (Input.GetKeyDown(KeyCode.Space)) jump();
+        if (Input.GetKeyDown(KeyCode.Space)) player_jump_attempt();
+        if (Input.GetKeyDown(KeyCode.Mouse0)) player_attack_attempt();
     }
 
-    private void HandleMovement()
+    private void player_attack_attempt()
     {
-        rb.linearVelocity = new Vector2(xInput * move_speed, rb.linearVelocity.y);
+        if (isGrounded)
+        {
+            anim.SetTrigger("attack");
+        }
     }
 
-    private void HandleCollision()
+    private void player_Movement()
+    {
+        if(canMove) rb.linearVelocity = new Vector2(xInput * move_speed, rb.linearVelocity.y);
+        else rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+    }
+
+    private void player_Collision()
     {
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, ground_check_distance, whatIsGround);
     }
 
-    private void player_flip()
+    private void player_Flip()
     {
         if (rb.linearVelocity.x > 0 && isFacingRight == false) flip();
-        else if(rb.linearVelocity.x < 0 && isFacingRight == true) flip(); 
+        else if (rb.linearVelocity.x < 0 && isFacingRight == true) flip();
     }
 
     private void flip()
@@ -70,10 +103,15 @@ public class Player_Script : MonoBehaviour
         isFacingRight = !isFacingRight;
     }
 
-    private void jump()
+    private void player_jump_attempt()
     {
-        if (isGrounded) rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+        if (isGrounded && canJump) rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
     }
 
-    
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(transform.position, transform.position + new Vector3(0, -ground_check_distance));
+        Gizmos.DrawWireSphere(attack_point.position, attack_radius);
+    }
+
 }
