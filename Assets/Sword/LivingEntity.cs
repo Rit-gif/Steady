@@ -1,16 +1,25 @@
+using System;
 using UnityEngine;
 
-public class LivingEntity : MonoBehaviour
+public class LivingEntity : MonoBehaviour, IDamageable
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float startHealth;
+    protected float Health { get; private set; }
+    protected bool IsDead;
 
-    // Update is called once per frame
-    void Update()
+    public event Action OnDeath;
+    public virtual void TakeDamage(float damage)
     {
-        
+        Health -= damage;
+
+        if(Health >0 || IsDead)
+        {
+            return;
+        }
+
+        IsDead = true;
+        OnDeath?.Invoke();
+
+        Destroy(gameObject);
     }
 }
