@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : LivingEntity
 {
     [SerializeField] float moveSpeed = 2f;
     [SerializeField] float chaseRange = 6f;
@@ -39,7 +39,7 @@ public class EnemyMovement : MonoBehaviour
         scale.x = Mathf.Abs(scale.x) * direction;
         transform.localScale = scale;
 
-        string clip = Mathf.Abs(rb.linearVelocity.x) > 0.1f ? "Movement" : "Idle";
+        string clip = Mathf.Abs(rb.linearVelocity.x) > 0.1f ? "BossMovement" : "BossIdle";
         if (!anim.IsPlaying(clip))
             anim.CrossFade(clip, 0.1f);
     }

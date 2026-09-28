@@ -1,55 +1,76 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MenuFOrm : MonoBehaviour
+public class MenuForm : MonoBehaviour
 {
     [SerializeField] private ToggleGroup toggleGroup;
 
-    private Toggle currentSelection => toggleGroup.GetFirstActiveToggle();
-    private Toggle onToggle;
+    private Toggle highlighted;
 
     private void Start()
     {
-        var toggles = toggleGroup.GetComponentsInChildren<Toggle>();
-        foreach (var toggle in toggles)
+        foreach (var toggle in toggleGroup.GetComponentsInChildren<Toggle>())
         {
-            toggle.onValueChanged.AddListener(_ => OnToggleValueChanged(toggle));
+            SetLabelColor(toggle, Color.white);
+            toggle.onValueChanged.AddListener(isOn => OnToggleValueChanged(toggle, isOn));
         }
 
-        currentSelection.onValueChanged?.Invoke(true);
+        var first = toggleGroup.GetFirstActiveToggle();
+        if (first != null)
+            Highlight(first);
     }
 
-    private void OnToggleValueChanged(Toggle toggle)
+    private void OnToggleValueChanged(Toggle toggle, bool isOn)
     {
-        if(currentSelection == onToggle)
+        if (!isOn)
         {
-            switch(toggle.name)
-            {
-                case "GameStart":
-                    SceneManager.LoadScene("Game");
-                    break;
-                case "Exit":
-                    Application.Quit();
-#if UNITY_EDITOR
-                    UnityEditor.EditorApplication.isPlaying = false;
-#endif
-                    break;
-                default:
-                    throw new UnityException("Toggle name is invalid.");
-            }
+            // Toggle was switched off because another one was selected
+            SetLabelColor(toggle, Color.white);
+            if (highlighted == toggle) highlighted = null;
             return;
         }
-        if (toggle.isOn)
-        {
-            onToggle = toggle;
-            onToggle.transform.Find("Label").GetComponent<TMP_Text>().color = Color.yellow;
-        }
+
+        if (toggle == highlighted)
+            Confirm(toggle);      // clicked the already-highlighted item
         else
+            Highlight(toggle);    // first click just highlights
+    }
+
+    private void Highlight(Toggle toggle)
+    {
+        highlighted = toggle;
+        SetLabelColor(toggle, Color.yellow);
+    }
+
+    private void Confirm(Toggle toggle)
+    {
+        switch (toggle.name)
         {
-            onToggle.transform.Find("Label").GetComponent<TMP_Text>().color = Color.white;
+            case "GameStart":
+                Time.timeScale = 1f;   // in case you arrive here from a paused/game-over state
+                SceneManager.LoadScene(1);
+                break;
+
+            case "Exit":
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#else
+                Application.Quit();
+#endif
+                break;
+
+            default:
+                Debug.LogError($"MenuForm: unknown toggle '{toggle.name}'");
+                break;
         }
+    }
+
+    private static void SetLabelColor(Toggle toggle, Color color)
+    {
+        var label = toggle.transform.Find("Label");
+        if (label != null && label.TryGetComponent(out TMP_Text text))
+            text.color = color;
     }
 }
