@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: a2c775f2014fb7b45b044dc2687eba0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7077351066953410824
+    second: NormalEnemyt_0
+  - first:
+      213: 1900275075098731858
+    second: NormalEnemyt_1
+  - first:
+      213: 5821290989636067216
+    second: NormalEnemyt_2
+  - first:
+      213: -5142082620273303802
+    second: NormalEnemyt_3
+  - first:
+      213: -2669236631410711233
+    second: NormalEnemyt_4
+  - first:
+      213: 1981775565281438743
+    second: NormalEnemyt_5
+  - first:
+      213: -7248604345551877729
+    second: NormalEnemyt_6
+  - first:
+      213: 3106379306043445576
+    second: NormalEnemyt_7
+  - first:
+      213: 1866809140189039796
+    second: NormalEnemyt_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NormalEnemyt_0
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 328
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8096d784c4dc73260800000000000000
+      internalID: 7077351066953410824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 332
+        width: 161
+        height: 150
+      alignment: 9
+      pivot: {x: 0.6062844, y: 0.03443563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255e9cadc122f5a10800000000000000
+      internalID: 1900275075098731858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 369
+        width: 78
+        height: 89
+      alignment: 9
+      pivot: {x: 0.78031963, y: 0.76964957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f9073005169c050800000000000000
+      internalID: 5821290989636067216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_3
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 370
+        width: 59
+        height: 68
+      alignment: 9
+      pivot: {x: 0.2762327, y: 0.8695127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f56ecc917a3a8b0800000000000000
+      internalID: -5142082620273303802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 135
+        width: 111
+        height: 174
+      alignment: 9
+      pivot: {x: 0.6129098, y: 0.26825547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35ed4b0d67f4fad0800000000000000
+      internalID: -2669236631410711233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_5
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 125
+        width: 60
+        height: 128
+      alignment: 9
+      pivot: {x: 0.75436604, y: 0.9516424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c2621706ea08b10800000000000000
+      internalID: 1981775565281438743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_6
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 121
+        width: 62
+        height: 132
+      alignment: 9
+      pivot: {x: 0.49253896, y: 0.958978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f990702a0c8c76b90800000000000000
+      internalID: -7248604345551877729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 313
+        width: 134
+        height: 62
+      alignment: 9
+      pivot: {x: 0.43802518, y: 0.723243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9addcfc0191c3d4469e96f64d0e379f4
+      internalID: -1582051657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_10
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 372
+        width: 164
+        height: 130
+      alignment: 9
+      pivot: {x: 0.21694686, y: 0.054465894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415883d9d3e43d0478d46b85df4dac77
+      internalID: 668840327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalEnemyt_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 340
+        width: 89
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f825704968651f04e9e7c420c72970b2
+      internalID: -1238079761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 58a3289e6ee4d2c47a174e3235e1973f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NormalEnemyt_0: 7077351066953410824
+      NormalEnemyt_1: 1900275075098731858
+      NormalEnemyt_10: 668840327
+      NormalEnemyt_11: -1238079761
+      NormalEnemyt_2: 5821290989636067216
+      NormalEnemyt_3: -5142082620273303802
+      NormalEnemyt_4: -2669236631410711233
+      NormalEnemyt_5: 1981775565281438743
+      NormalEnemyt_6: -7248604345551877729
+      NormalEnemyt_7: 3106379306043445576
+      NormalEnemyt_8: 1866809140189039796
+      NormalEnemyt_9: -1582051657
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
