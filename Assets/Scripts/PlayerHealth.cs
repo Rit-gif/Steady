@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -53,10 +54,9 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-#if UNITY_EDITOR
-        EditorApplication.isPlaying = false;   // stops Play mode in the editor
-#else
-    Application.Quit();                    // closes a built game
-#endif
+        if (isDead) return;   // stops it running again if the enemy hits during the load
+        isDead = true;
+
+        SceneManager.LoadScene("DeathAnimation");
     }
 }

@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/game.unity
     guid: 86de6a33f5c9d8740b19db388a8c9e05
+  - enabled: 1
+    path: Assets/death_cut/DeathAnimation.unity
+    guid: 24c97f71eeaa1794f93cb04bd78cd182
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
