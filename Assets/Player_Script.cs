@@ -53,7 +53,7 @@ public class Player_Script : MonoBehaviour
         Collider2D[] enemy_colliders = Physics2D.OverlapCircleAll(attack_point.position, attack_radius, whatIsEnemy);
         foreach (Collider2D enemy in enemy_colliders)
         {
-            enemy.GetComponent<cooldown_example>().take_damage();
+            enemy.GetComponent<enemy_script>().take_damage();
         }
 
     }
