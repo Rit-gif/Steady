@@ -235,8 +235,8 @@ TextureImporter:
       name: MiddleBosst_6
       rect:
         serializedVersion: 2
-        x: 440
-        y: 340
+        x: 585
+        y: 475
         width: 70
         height: 182
       alignment: 0
@@ -257,8 +257,8 @@ TextureImporter:
       name: MiddleBosst_7
       rect:
         serializedVersion: 2
-        x: 440
-        y: 454
+        x: 581
+        y: 569
         width: 86
         height: 68
       alignment: 9
@@ -279,12 +279,12 @@ TextureImporter:
       name: MiddleBosst_8
       rect:
         serializedVersion: 2
-        x: 358
-        y: 326
-        width: 330
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 372
+        y: 258
+        width: 320
+        height: 262
+      alignment: 9
+      pivot: {x: 0.40148124, y: 0.93897647}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,8 +301,8 @@ TextureImporter:
       name: MiddleBosst_9
       rect:
         serializedVersion: 2
-        x: 499
-        y: 191
+        x: 648
+        y: 514
         width: 162
         height: 246
       alignment: 0
@@ -315,6 +315,28 @@ TextureImporter:
       bones: []
       spriteID: d39c8596e72654f4f813a88f3eed0976
       internalID: 386031559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiddleBosst_10
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 177
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c940eb44927cad45a55b35b6f998fe7
+      internalID: 247572796
       vertices: []
       indices: 
       edges: []
@@ -335,6 +357,7 @@ TextureImporter:
     nameFileIdTable:
       MiddleBosst_0: -8758340613417931523
       MiddleBosst_1: -1592667683
+      MiddleBosst_10: 247572796
       MiddleBosst_2: 226534887
       MiddleBosst_3: -1207555576
       MiddleBosst_4: 693189957
