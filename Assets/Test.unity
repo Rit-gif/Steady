@@ -319,7 +319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449cddb048e15774cb32a6e55b2e96fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  enemy_colliders: []
   attack_radius: 0.84
   attack_point: {fileID: 1005658599}
   whatIsEnemy:
@@ -886,8 +885,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1944385684}
   - component: {fileID: 1944385683}
-  - component: {fileID: 1944385682}
   - component: {fileID: 1944385681}
+  - component: {fileID: 1944385685}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -941,18 +940,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1944385682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944385680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97bdc80f290a4e145b30ce0a51fa7d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!212 &1944385683
 SpriteRenderer:
   serializedVersion: 2
@@ -1027,6 +1014,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1944385685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944385680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc2f88dcedc5764f9c5a43a443fb096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  move_speed: 0
+  enemyName: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
