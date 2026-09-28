@@ -14,9 +14,9 @@ public class SwordSwing : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-            if (!state.IsName("SwordSwing") || state.normalizedTime >= 1f)
+            if (!state.IsName("SwordPivot") || state.normalizedTime >= 1f)
             {
-                animator.Play("SwordSwing", 0, 0f);
+                animator.Play("SwordPivot", 0, 0f);
             }
         }
     }
