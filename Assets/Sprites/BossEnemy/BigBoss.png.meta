@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: 1eec9a2dc6820e84f953e4dda1b364b1
+guid: 17408867b54b79d4db22060d00ab17d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 184914663197719220
-    second: watermarked_img_6105126091796808865_0
+      213: -3693486103535584935
+    second: BigBoss_0
   - first:
-      213: -7758432425340915441
-    second: watermarked_img_6105126091796808865_1
+      213: -687224431234695604
+    second: BigBoss_1
   - first:
-      213: 4092331502221994215
-    second: watermarked_img_6105126091796808865_2
+      213: 3816275015692893707
+    second: BigBoss_2
   - first:
-      213: 2644447797976075519
-    second: watermarked_img_6105126091796808865_3
+      213: 2043702947135161936
+    second: BigBoss_3
   - first:
-      213: -8280304902442001696
-    second: watermarked_img_6105126091796808865_4
+      213: 4021479615891867659
+    second: BigBoss_4
   - first:
-      213: 899425953906600400
-    second: watermarked_img_6105126091796808865_5
+      213: 4181592720165455330
+    second: BigBoss_5
   - first:
-      213: 4575543687733868371
-    second: watermarked_img_6105126091796808865_6
+      213: 271283811828484138
+    second: BigBoss_6
   - first:
-      213: 7593014810180002764
-    second: watermarked_img_6105126091796808865_7
+      213: -1091619588511375056
+    second: BigBoss_7
   - first:
-      213: -1653164258753879102
-    second: watermarked_img_6105126091796808865_8
+      213: -2881423649558177114
+    second: BigBoss_8
   - first:
-      213: 401461500344981867
-    second: watermarked_img_6105126091796808865_9
+      213: 4776354875041629000
+    second: BigBoss_9
   - first:
-      213: -750047534967610542
-    second: watermarked_img_6105126091796808865_10
+      213: 8432341793819003139
+    second: BigBoss_10
   - first:
-      213: 2336271016933292475
-    second: watermarked_img_6105126091796808865_11
+      213: 2632951396076875313
+    second: BigBoss_11
   - first:
-      213: 7269724055192746536
-    second: watermarked_img_6105126091796808865_12
+      213: 4931343449248283898
+    second: BigBoss_12
   - first:
-      213: 8125869888568185784
-    second: watermarked_img_6105126091796808865_13
+      213: 7564365232377172003
+    second: BigBoss_13
   - first:
-      213: -525145928735958468
-    second: watermarked_img_6105126091796808865_14
+      213: -4604481558366047732
+    second: BigBoss_14
   - first:
-      213: -3235040423478472195
-    second: watermarked_img_6105126091796808865_15
+      213: 7947517409248261553
+    second: BigBoss_15
   - first:
-      213: 6004081975351446353
-    second: watermarked_img_6105126091796808865_16
+      213: 8085074984267426942
+    second: BigBoss_16
   - first:
-      213: -3096999440597567193
-    second: watermarked_img_6105126091796808865_17
+      213: -3738144984201767174
+    second: BigBoss_17
   - first:
-      213: 8962400372352036576
-    second: watermarked_img_6105126091796808865_18
+      213: 8477797070352514418
+    second: BigBoss_18
   - first:
-      213: -2007253268167408080
-    second: watermarked_img_6105126091796808865_19
+      213: -3420688486907911624
+    second: BigBoss_19
   - first:
-      213: -5201883477228300409
-    second: watermarked_img_6105126091796808865_20
+      213: 914162138948356978
+    second: BigBoss_20
   - first:
-      213: 1618900296726005564
-    second: watermarked_img_6105126091796808865_21
+      213: 5647153548051975241
+    second: BigBoss_21
   - first:
-      213: -6895112415064423458
-    second: watermarked_img_6105126091796808865_22
+      213: 6616719400347202413
+    second: BigBoss_22
   - first:
-      213: -4545885139142942571
-    second: watermarked_img_6105126091796808865_23
+      213: -4390296516665546414
+    second: BigBoss_23
   - first:
-      213: 1827822613700974597
-    second: watermarked_img_6105126091796808865_24
+      213: 5532395374672527229
+    second: BigBoss_24
   - first:
-      213: -8314785744994559058
-    second: watermarked_img_6105126091796808865_25
+      213: 2867002721144867610
+    second: BigBoss_25
   - first:
-      213: 8506644752710997763
-    second: watermarked_img_6105126091796808865_26
+      213: 2227458197594839280
+    second: BigBoss_26
   - first:
-      213: -483455710515313519
-    second: watermarked_img_6105126091796808865_27
+      213: -9151582399876055318
+    second: BigBoss_27
   - first:
-      213: 7706261783059080267
-    second: watermarked_img_6105126091796808865_28
+      213: -2566249884670060303
+    second: BigBoss_28
   - first:
-      213: 5584946520560448616
-    second: watermarked_img_6105126091796808865_29
+      213: 4348353352802252068
+    second: BigBoss_29
   - first:
-      213: -1986863730954977619
-    second: watermarked_img_6105126091796808865_30
+      213: 3146327616878299216
+    second: BigBoss_30
   - first:
-      213: -5689388201347844601
-    second: watermarked_img_6105126091796808865_31
+      213: -618185210155057873
+    second: BigBoss_31
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -193,705 +193,705 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_0
+      name: BigBoss_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 782
+        x: 75
+        y: 1568
+        width: 2537
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9597bef25f91ebcc0800000000000000
+      internalID: -3693486103535584935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_1
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1582
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e3947550d7676f0800000000000000
+      internalID: -687224431234695604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_2
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1581
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eb29348e126f430800000000000000
+      internalID: 3816275015692893707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1581
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056096e9001bc5c10800000000000000
+      internalID: 2043702947135161936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_4
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1596
         width: 10
-        height: 17
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ba39ad08e2f09200800000000000000
-      internalID: 184914663197719220
+      spriteID: b0885b8676a2fc730800000000000000
+      internalID: 4021479615891867659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_1
+      name: BigBoss_5
       rect:
         serializedVersion: 2
-        x: 139
-        y: 781
-        width: 17
-        height: 17
+        x: 967
+        y: 1600
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f01bea9a0d2845490800000000000000
-      internalID: -7758432425340915441
+      spriteID: 2e542d88c60080a30800000000000000
+      internalID: 4181592720165455330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_2
+      name: BigBoss_6
       rect:
         serializedVersion: 2
-        x: 155
-        y: 782
-        width: 16
-        height: 16
+        x: 1035
+        y: 1578
+        width: 37
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e82515b1d1eac830800000000000000
-      internalID: 4092331502221994215
+      spriteID: a28c955803bc3c300800000000000000
+      internalID: 271283811828484138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_3
+      name: BigBoss_7
       rect:
         serializedVersion: 2
-        x: 1226
-        y: 783
-        width: 17
-        height: 16
+        x: 1144
+        y: 1579
+        width: 35
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffc8d69e247f2b420800000000000000
-      internalID: 2644447797976075519
+      spriteID: 031ebe494c9c9d0f0800000000000000
+      internalID: -1091619588511375056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_4
+      name: BigBoss_8
       rect:
         serializedVersion: 2
-        x: 1261
-        y: 783
-        width: 17
-        height: 17
+        x: 1293
+        y: 1582
+        width: 28
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ead40aef82761d80800000000000000
-      internalID: -8280304902442001696
+      spriteID: 6aadca805702308d0800000000000000
+      internalID: -2881423649558177114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_5
+      name: BigBoss_9
       rect:
         serializedVersion: 2
-        x: 1296
-        y: 782
-        width: 10
-        height: 18
+        x: 1365
+        y: 1582
+        width: 28
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d9ae54c3276b7c00800000000000000
-      internalID: 899425953906600400
+      spriteID: 843cf00e375094240800000000000000
+      internalID: 4776354875041629000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_6
+      name: BigBoss_10
       rect:
         serializedVersion: 2
-        x: 91
-        y: 738
-        width: 1215
+        x: 1434
+        y: 1581
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309034d5f22b50570800000000000000
+      internalID: 8432341793819003139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_11
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1579
+        width: 31
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35778a1edb89f7f30800000000000000
-      internalID: 4575543687733868371
+      spriteID: 13ee702485f1a8420800000000000000
+      internalID: 2632951396076875313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_7
+      name: BigBoss_12
       rect:
         serializedVersion: 2
-        x: 389
-        y: 744
-        width: 18
+        x: 1573
+        y: 1580
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcb4ed5db6af6440800000000000000
+      internalID: 4931343449248283898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_13
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1578
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3201823e9160af860800000000000000
+      internalID: 7564365232377172003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_14
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0231c21b689910c0800000000000000
+      internalID: -4604481558366047732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_15
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1582
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5b978d9f04b4e60800000000000000
+      internalID: 7947517409248261553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_16
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1587
+        width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc32f078dbecf5960800000000000000
-      internalID: 7593014810180002764
+      spriteID: e7c28a39cd4f33070800000000000000
+      internalID: 8085074984267426942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_8
+      name: BigBoss_17
       rect:
         serializedVersion: 2
-        x: 458
-        y: 742
-        width: 18
-        height: 18
+        x: 1865
+        y: 1584
+        width: 13
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c36a919dd7ce09e0800000000000000
-      internalID: -1653164258753879102
+      spriteID: af6deb141f07f1cc0800000000000000
+      internalID: -3738144984201767174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_9
+      name: BigBoss_18
       rect:
         serializedVersion: 2
-        x: 493
-        y: 744
-        width: 16
-        height: 16
+        x: 1918
+        y: 1582
+        width: 30
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b69de078b17429500800000000000000
-      internalID: 401461500344981867
+      spriteID: 27d7538a48f27a570800000000000000
+      internalID: 8477797070352514418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_10
+      name: BigBoss_19
       rect:
         serializedVersion: 2
-        x: 526
-        y: 744
-        width: 10
-        height: 16
+        x: 1989
+        y: 1577
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2532999adbb4795f0800000000000000
-      internalID: -750047534967610542
+      spriteID: 832e59ad1f54780d0800000000000000
+      internalID: -3420688486907911624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_11
+      name: BigBoss_20
       rect:
         serializedVersion: 2
-        x: 535
-        y: 754
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb9795f9c1a1c6020800000000000000
-      internalID: 2336271016933292475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_12
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 744
-        width: 9
+        x: 2071
+        y: 1597
+        width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82a30e4f28f33e460800000000000000
-      internalID: 7269724055192746536
+      spriteID: 27bc0273f91cfac00800000000000000
+      internalID: 914162138948356978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_13
+      name: BigBoss_21
       rect:
         serializedVersion: 2
-        x: 571
-        y: 741
-        width: 20
-        height: 21
+        x: 2085
+        y: 1597
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b356276c93e4c070800000000000000
-      internalID: 8125869888568185784
+      spriteID: 94c89b76b38be5e40800000000000000
+      internalID: 5647153548051975241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_14
+      name: BigBoss_22
       rect:
         serializedVersion: 2
-        x: 599
-        y: 744
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3a53766f8e46b8f0800000000000000
-      internalID: -525145928735958468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_15
-      rect:
-        serializedVersion: 2
-        x: 625
-        y: 742
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df15984ffd3da13d0800000000000000
-      internalID: -3235040423478472195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_16
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 745
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15b062fdeb8c25350800000000000000
-      internalID: 6004081975351446353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_17
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 745
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7293999da6f3505d0800000000000000
-      internalID: -3096999440597567193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_18
-      rect:
-        serializedVersion: 2
-        x: 770
-        y: 744
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ee2fd067a7d06c70800000000000000
-      internalID: 8962400372352036576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_19
-      rect:
-        serializedVersion: 2
-        x: 805
-        y: 743
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 036c3a899cdc424e0800000000000000
-      internalID: -2007253268167408080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_20
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 743
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78755d8c9823fc7b0800000000000000
-      internalID: -5201883477228300409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_21
-      rect:
-        serializedVersion: 2
-        x: 875
-        y: 743
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c37c0291e3d777610800000000000000
-      internalID: 1618900296726005564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_22
-      rect:
-        serializedVersion: 2
-        x: 908
-        y: 742
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed303b55ac3af40a0800000000000000
-      internalID: -6895112415064423458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_23
-      rect:
-        serializedVersion: 2
-        x: 944
-        y: 744
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59068a31d85c9e0c0800000000000000
-      internalID: -4545885139142942571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_24
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 743
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5089212abfabd5910800000000000000
-      internalID: 1827822613700974597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_25
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 744
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eab1e162b62fb9c80800000000000000
-      internalID: -8314785744994559058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_26
-      rect:
-        serializedVersion: 2
-        x: 1048
-        y: 742
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30797cb155cad0670800000000000000
-      internalID: 8506644752710997763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_27
-      rect:
-        serializedVersion: 2
-        x: 1088
-        y: 751
-        width: 8
+        x: 1214
+        y: 1591
+        width: 40
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 194c91eb79b6a49f0800000000000000
-      internalID: -483455710515313519
+      spriteID: d63712cdc3f43db50800000000000000
+      internalID: 6616719400347202413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_28
+      name: BigBoss_23
       rect:
         serializedVersion: 2
-        x: 1095
-        y: 751
-        width: 8
-        height: 9
+        x: 2071
+        y: 1582
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b44a76d134422fa60800000000000000
-      internalID: 7706261783059080267
+      spriteID: 259e38134988213c0800000000000000
+      internalID: -4390296516665546414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_29
+      name: BigBoss_24
       rect:
         serializedVersion: 2
-        x: 1088
-        y: 744
-        width: 8
-        height: 8
+        x: 2085
+        y: 1582
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8643f872547b18d40800000000000000
-      internalID: 5584946520560448616
+      spriteID: d7fbe58084407cc40800000000000000
+      internalID: 5532395374672527229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_30
+      name: BigBoss_25
       rect:
         serializedVersion: 2
-        x: 1095
-        y: 744
-        width: 8
-        height: 8
+        x: 75
+        y: 1554
+        width: 2537
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae325ba6fd3d64e0800000000000000
-      internalID: -1986863730954977619
+      spriteID: a1b0bebe8c3a9c720800000000000000
+      internalID: 2867002721144867610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: watermarked_img_6105126091796808865_31
+      name: BigBoss_26
       rect:
         serializedVersion: 2
-        x: 91
-        y: 20
-        width: 1215
-        height: 716
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1402
+        y: 560
+        width: 733
+        height: 994
+      alignment: 9
+      pivot: {x: 0.055566974, y: 0.60102266}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 706fc55139b3b01b0800000000000000
-      internalID: -5689388201347844601
+      spriteID: 0f81cabdd6589ee10800000000000000
+      internalID: 2227458197594839280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1259
+        width: 175
+        height: 202
+      alignment: 9
+      pivot: {x: 0.6467885, y: 0.03179146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeebba26b4c0ff080800000000000000
+      internalID: -9151582399876055318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_28
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 554
+        width: 379
+        height: 624
+      alignment: 9
+      pivot: {x: 0.44762635, y: 0.3652733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f89a539359d26cd0800000000000000
+      internalID: -2566249884670060303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_29
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 718
+        width: 262
+        height: 367
+      alignment: 9
+      pivot: {x: 0.15238476, y: 0.9231476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42538a7f554785c30800000000000000
+      internalID: 4348353352802252068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_30
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 182
+        width: 208
+        height: 360
+      alignment: 9
+      pivot: {x: 0.3484324, y: 0.9346191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058480f2c400aab20800000000000000
+      internalID: 3146327616878299216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigBoss_31
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 160
+        width: 209
+        height: 360
+      alignment: 9
+      pivot: {x: 0.39385256, y: 0.9346191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dbe4f93d3cb67f0800000000000000
+      internalID: -618185210155057873
       vertices: []
       indices: 
       edges: []
@@ -900,7 +900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 252ac6486419f4040b13f0de6b87bc58
     internalID: 0
     vertices: []
     indices: 
@@ -910,38 +910,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      watermarked_img_6105126091796808865_0: 184914663197719220
-      watermarked_img_6105126091796808865_1: -7758432425340915441
-      watermarked_img_6105126091796808865_10: -750047534967610542
-      watermarked_img_6105126091796808865_11: 2336271016933292475
-      watermarked_img_6105126091796808865_12: 7269724055192746536
-      watermarked_img_6105126091796808865_13: 8125869888568185784
-      watermarked_img_6105126091796808865_14: -525145928735958468
-      watermarked_img_6105126091796808865_15: -3235040423478472195
-      watermarked_img_6105126091796808865_16: 6004081975351446353
-      watermarked_img_6105126091796808865_17: -3096999440597567193
-      watermarked_img_6105126091796808865_18: 8962400372352036576
-      watermarked_img_6105126091796808865_19: -2007253268167408080
-      watermarked_img_6105126091796808865_2: 4092331502221994215
-      watermarked_img_6105126091796808865_20: -5201883477228300409
-      watermarked_img_6105126091796808865_21: 1618900296726005564
-      watermarked_img_6105126091796808865_22: -6895112415064423458
-      watermarked_img_6105126091796808865_23: -4545885139142942571
-      watermarked_img_6105126091796808865_24: 1827822613700974597
-      watermarked_img_6105126091796808865_25: -8314785744994559058
-      watermarked_img_6105126091796808865_26: 8506644752710997763
-      watermarked_img_6105126091796808865_27: -483455710515313519
-      watermarked_img_6105126091796808865_28: 7706261783059080267
-      watermarked_img_6105126091796808865_29: 5584946520560448616
-      watermarked_img_6105126091796808865_3: 2644447797976075519
-      watermarked_img_6105126091796808865_30: -1986863730954977619
-      watermarked_img_6105126091796808865_31: -5689388201347844601
-      watermarked_img_6105126091796808865_4: -8280304902442001696
-      watermarked_img_6105126091796808865_5: 899425953906600400
-      watermarked_img_6105126091796808865_6: 4575543687733868371
-      watermarked_img_6105126091796808865_7: 7593014810180002764
-      watermarked_img_6105126091796808865_8: -1653164258753879102
-      watermarked_img_6105126091796808865_9: 401461500344981867
+      BigBoss_0: -3693486103535584935
+      BigBoss_1: -687224431234695604
+      BigBoss_10: 8432341793819003139
+      BigBoss_11: 2632951396076875313
+      BigBoss_12: 4931343449248283898
+      BigBoss_13: 7564365232377172003
+      BigBoss_14: -4604481558366047732
+      BigBoss_15: 7947517409248261553
+      BigBoss_16: 8085074984267426942
+      BigBoss_17: -3738144984201767174
+      BigBoss_18: 8477797070352514418
+      BigBoss_19: -3420688486907911624
+      BigBoss_2: 3816275015692893707
+      BigBoss_20: 914162138948356978
+      BigBoss_21: 5647153548051975241
+      BigBoss_22: 6616719400347202413
+      BigBoss_23: -4390296516665546414
+      BigBoss_24: 5532395374672527229
+      BigBoss_25: 2867002721144867610
+      BigBoss_26: 2227458197594839280
+      BigBoss_27: -9151582399876055318
+      BigBoss_28: -2566249884670060303
+      BigBoss_29: 4348353352802252068
+      BigBoss_3: 2043702947135161936
+      BigBoss_30: 3146327616878299216
+      BigBoss_31: -618185210155057873
+      BigBoss_4: 4021479615891867659
+      BigBoss_5: 4181592720165455330
+      BigBoss_6: 271283811828484138
+      BigBoss_7: -1091619588511375056
+      BigBoss_8: -2881423649558177114
+      BigBoss_9: 4776354875041629000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
